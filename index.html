@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>object 객체</title>
+  </head>
+  <body>
+    <script>
+      const person = {
+        name: ["홍길동", "김씨"],
+        age: 23,
+        city: { dong: "동구" },
+        printInfo: function () {
+          console.log("printInfo");
+        },
+      };
+      const persons = {
+        name: "이름",
+        age: 20,
+      };
+      console.log(persons["name"]);
+    </script>
+  </body>
+</html>
